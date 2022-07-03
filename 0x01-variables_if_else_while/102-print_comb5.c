@@ -12,7 +12,7 @@ int main(void)
 	{
 		for (ndd = stt + 1; ndd <= 99; ndd++)
 		{
-			putchar((stt / 10) + '0');	
+			putchar((stt / 10) + '0');
 			putchar((stt % 10) + '0');
 			putchar(' ');
 			putchar((ndd / 10) + '0');
