@@ -2,7 +2,7 @@
 
 /**
  * _islower - checks for lower case character
- * @C: int c is the arguement to be passed into the function
+ * @c: int c is the arguement to be passed into the function
  * Return: 0.
  */
 int _islower(int c)
