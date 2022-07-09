@@ -1,25 +1,29 @@
 #include "main.h"
 
 /**
- * * print_square -> printing line
- * * @size: integer parameter
+ * print_square -> printing line
+ * @size: integer parameter
+ * Return: 0
  */
 void print_square(int size)
 {
-	int x, y;
+	int b = 0;
+	int c = 0;
 
-	if (size <= 0)
+	if (size > 0)
 	{
-		_putchar('\n');
-	} else
-	{
-		for (x = 0; x < size; x++)
+		while (b < size)
 		{
-			for (y = 0; y < size; y++)
+			while (c < size)
 			{
 				_putchar('#');
+				c++;
 			}
-			_putchar('\n')
+		c = 0;
+		b++;
+		_putchar('\n');
 		}
 	}
+	else
+		_putchar('\n');
 }
