@@ -4,6 +4,7 @@
  * print_diagonal -> printing line
  * @n: integer params
  */
+
 void print_diagonal(int n)
 {
 	int x, i;
@@ -21,7 +22,3 @@ void print_diagonal(int n)
 		}
 	}
 }
-
-Footer
-
-© 2022 GitH
