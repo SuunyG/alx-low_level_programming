@@ -6,8 +6,9 @@
  * the byte position, then showing the hex content,
  * then displaying printable charcaters.
  * @b: The buffer to be p* @size: The number of bytes to be printed from the buffer.
+ * @size: size of buffer
+ * Return: No return
  */
-
 void print_buffer(char *b, int size)
 {
 	int byte, index;
